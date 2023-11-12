@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    background: url('icon.png');
+    height: 20px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col-2 {
+    width: 50%;
+}
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #fff;
+    font-style: italic;
+    list-style: none;
+    width: 100%;
+    top:0;
+    height: 75px;
+    box-shadow: 0px 1px 15px grey;
+}
+
+nav img{
+    margin-left: 20px;
+}
+
+nav div{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+div, p{
+    display: ruby-text-container;
+    justify-content: space-around;
+    font-style: italic;
+    width: 100%;
+    font-weight: 400;
+    
+    
+}
+ h5{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    color: turquoise;
+}
+a{
+    color: turquoise;
+}
+
+.brands a{
+    margin-right: 20px;
+}
+
+h2, p1 {
+    font-weight: bold;
+    background-color: turquoise;
+    color: #fff;
+    padding: .2em;
+    line-height: 20px;
+}
+h3, p2{
+    font-weight: bold;
+    background-color: rgb(50, 79, 204);
+    color: #fff;
+    padding: .2em;
+    line-height: 20px;
+}
+
+h4, p3{
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    padding: .2em;
+    line-height: 20px;
+}
+div{
+    flex-direction: space-around;
+}
+footer{
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+    border-top: 1px solid #eef2f2;
+    padding: 1em 0; 
+}
+h1, a {
+    flex-direction: column;
+    justify-content: center;
+
+}
